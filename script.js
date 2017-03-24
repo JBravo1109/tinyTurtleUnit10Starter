@@ -35,6 +35,20 @@ forward(size*2);
 
 }
 
-rectangle(90);
-triangle(30, 120);
-stamp();
+//rectangle(30);
+//triangle(100, 120);
+
+
+function rhombus(size){
+    right(330);
+    forward(size);
+    right(60);
+    forward(size);
+    right(120);
+    forward(size);
+    right(60);
+    forward(size);
+    
+
+}
+rhombus(40);
